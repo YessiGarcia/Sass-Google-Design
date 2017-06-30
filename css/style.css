@@ -145,4 +145,16 @@ div {
   border-radius: 50%;
   height: 50px; }
 
+.icono {
+  height: 40px; }
+
+.icono-med {
+  height: 88px; }
+
+li {
+  list-style: none; }
+
+footer ul li a:hover {
+  text-decoration: underline; }
+
 /*# sourceMappingURL=style.css.map */

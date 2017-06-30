@@ -56,6 +56,22 @@ div{
 .peque{
 	border-radius: 50%;
 	height: 50px;
-
 }
-
+.icono{
+	height: $height;
+}
+.icono-med{
+	height: $height * 2.2; 
+}
+li{
+	list-style: none;
+}
+footer{
+	ul{
+		li{
+			a:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
