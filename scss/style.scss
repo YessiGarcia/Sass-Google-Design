@@ -1,0 +1,61 @@
+@import "variables";
+@import "grid";
+
+nav{
+	div{
+		img{
+			height: 120px;
+		}
+		a{
+			img{
+				height: 30px;
+			}
+			width: 15px;
+			text-align: center;
+		}
+	}	
+}
+a{
+	text-decoration: none;
+	color: $grisOscuro;
+}
+.top{
+	margin-top: $top * 2;
+}
+.imagen100{
+	width: $width;
+	margin-top: $top;
+	padding: $padding;
+}
+
+.sombra:hover{
+	box-shadow: 1px 2px 5px $grisClaro; 
+	cursor: pointer;
+}
+.grande{
+	font-size: $grande;
+}
+.linea{
+	width: 100%;
+	border-top: 4px solid $azul;
+}
+.slide{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: visibility;
+}
+div{
+	margin-bottom: $top * 5;
+	p{
+		margin-top: $top;
+	}
+	h2{
+		margin-top: $top;
+	}
+}
+.peque{
+	border-radius: 50%;
+	height: 50px;
+
+}
+
